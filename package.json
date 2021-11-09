@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-app",
+  "version": "0.0.1",
+  "description": "A Cloudflare Eleventy App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkup/cloudflare-app.git"
+  },
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/cloudflare-app/issues"
+  },
+  "homepage": "https://github.com/jkup/cloudflare-app#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
