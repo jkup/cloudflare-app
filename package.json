@@ -13,7 +13,6 @@
     "build": "run-s build:snowpack build:webpack sw",
     "build:snowpack": "snowpack build",
     "build:webpack": "webpack",
-    "deploy": "snowpack build",
     "lint:fix": "run-p lint:*:fix -l",
     "lint:css": "stylelint src/assets/styles/**/*.css",
     "lint:css:fix": "yarn lint:css --fix",
