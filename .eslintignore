@@ -1,0 +1,5 @@
+# Ignore dist files
+dist/**
+build/**
+public/**
+node_module

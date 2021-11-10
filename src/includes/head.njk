@@ -1,0 +1,10 @@
+<head>
+  <title>{{ title }}</title>
+
+  {% if env.dev %}
+  <link rel="stylesheet" href="/styles/main.css" />
+  {% endif %}
+
+  <!-- import meta tags -->
+  {% include "meta.njk" %}
+</head>
